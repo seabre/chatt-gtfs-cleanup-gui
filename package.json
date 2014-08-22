@@ -10,6 +10,7 @@
     "email": "",
     "url": "https://github.com/seabre"
   },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/seabre/chatt-gtfs-cleanup-gui.git"
