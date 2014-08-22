@@ -1,6 +1,6 @@
 # chatt-gtfs-cleanup-gui
 
-node-webkit GUI for [chatt-gtfs-cleanup-gui](https://github.com/jden/chatt-gtfs-cleanup)
+node-webkit GUI for [chatt-gtfs-cleanup](https://github.com/jden/chatt-gtfs-cleanup)
 
 # Development Environment
 
