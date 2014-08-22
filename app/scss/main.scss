@@ -1,0 +1,32 @@
+@import "vendor/normalize/normalize";
+@import "vendor/bourbon/bourbon";
+@import "vendor/neat/neat";
+@import "base/base";
+
+body {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  @include outer-container;
+}
+
+#output_dir_container {
+  @include span-columns(6);
+}
+
+#input_dir_container {
+  @include span-columns(6);
+}
+
+
+.error {
+  @extend %flash-error;
+}

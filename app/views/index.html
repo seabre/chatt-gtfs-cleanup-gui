@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChattGTFSCleanup</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/vendor/zepto.min.js"></script>
+</head>
+<body>
+	<h2>ChattGTFSCleanup</h2>
+	<p>GUI for the chatt-gtfs-cleanup script for CARTA.</p>
+  <div class="container">
+    <div id="input_dir_container">
+      <strong>Input Directory</strong>
+      <p>Please select the directory where your individual GTFS files are located.</p>
+      <input type="file" id="select_input_directory" nwdirectory />
+    </div>
+    <div id="output_dir_container">
+      <strong>Output Directory</strong>
+      <p>Please select the directory where you would like your cleaned GTFS files to go.</p>
+      <input type="file" id="select_output_directory" nwdirectory />
+    </div>
+  </div>
+  <div class="error hide"></div>
+  <button type="button" id="clean_gtfs">Clean GTFS</button>
+  <script src="../js/index.js"></script>
+</body>
+</html>
