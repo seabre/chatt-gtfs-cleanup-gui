@@ -23,6 +23,4 @@ $('#clean_gtfs').on('click', function() {
     $('.error').text(err.message);
     $('.error').fadeIn();
   }
-
-  $('.error').fadeOut();
 });
