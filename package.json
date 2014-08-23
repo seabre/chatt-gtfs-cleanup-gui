@@ -32,7 +32,7 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "chatt-gtfs-cleanup": "https://github.com/seabre/chatt-gtfs-cleanup/archive/change-main.tar.gz",
+    "chatt-gtfs-cleanup": "git://github.com/seabre/chatt-gtfs-cleanup#change-main",
     "lodash": "^2.4.1"
   }
 }
