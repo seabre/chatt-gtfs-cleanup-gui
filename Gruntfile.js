@@ -19,7 +19,7 @@ module.exports = function (grunt) {
   sass: { 
       dist: {
         options: {
-          style: 'expanded'
+          style: 'compressed'
         },
         files: {
           'app/css/main.css': 'app/scss/main.scss',
@@ -50,7 +50,7 @@ module.exports = function (grunt) {
           expand: true,
           cwd: '<%= config.app %>',
           dest: '<%= config.dist %>/app.nw',
-          src: '**'
+          src: ['**', '!scss/**'] 
         }]
       },
       appMacos: {
@@ -58,7 +58,7 @@ module.exports = function (grunt) {
           expand: true,
           cwd: '<%= config.app %>',
           dest: '<%= config.dist %>/node-webkit.app/Contents/Resources/app.nw',
-          src: '**'
+          src: ['**', '!scss/**']
         }, {
           expand: true,
           cwd: '<%= config.resources %>/mac/',
@@ -103,7 +103,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= config.app %>',
-          src: ['**']
+          src: ['**', '!scss/**']
         }]
       },
       finalWindowsApp: {
